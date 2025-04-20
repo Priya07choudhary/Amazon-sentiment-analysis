@@ -174,14 +174,11 @@ if st.session_state.get("results_df") is not None:
 
 # Jupyter Notebook Button
 
+st.markdown(
+    "[📓 Click here to view the Jupyter Notebook on GitHub](https://github.com/Priya07choudhary/Amazon-sentiment-analysis/blob/main/bda.ipynb)"
+)
 
 
-import webbrowser
-
-# Button to open GitHub notebook
-if st.button("Open Jupyter Notebook on GitHub"):
-    url = "https://github.com/Priya07choudhary/Amazon-sentiment-analysis/blob/main/bda.ipynb"
-    webbrowser.open_new_tab(url)
 
 
 # Description Button
