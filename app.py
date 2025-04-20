@@ -176,12 +176,12 @@ if st.session_state.get("results_df") is not None:
 
 
 
-import os
+import webbrowser
 
-
-# Option 2: Actually launch Jupyter Notebook programmatically (Windows)
-if st.button("Launch Jupyter Notebook"):
-    os.system("start jupyter notebook bda.ipynb")
+# Button to open GitHub notebook
+if st.button("Open Jupyter Notebook on GitHub"):
+    url = "https://github.com/Priya07choudhary/Amazon-sentiment-analysis/blob/main/bda.ipynb"
+    webbrowser.open_new_tab(url)
 
 
 # Description Button
