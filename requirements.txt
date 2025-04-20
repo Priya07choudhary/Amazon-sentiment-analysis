@@ -6,3 +6,6 @@ seaborn
 transformers
 torch
 nltk
+scipy
+vaderSentiment
+tqdm
